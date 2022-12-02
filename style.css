@@ -1,0 +1,36 @@
+.img_profile {
+    text-align: center;
+}
+
+.rectangle {
+    height: 25px;
+    width: 125px;
+    background-color: #D72638;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.rectangle:hover {
+    background: white;
+    text-align: center;
+}
+
+.profileName {
+    color: #F49D37;
+    text-align: center;
+}
+
+.infoProdotto {
+    color: #F49D37;
+    text-align: center;
+}
+
+.descProdotto {
+    text-align: center;
+}
+
+.immagineProdotto {
+    text-align: center;
+}
