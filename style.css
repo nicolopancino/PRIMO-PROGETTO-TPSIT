@@ -10,8 +10,14 @@
     position: absolute;
     left: 50%;
     transform:translate(-50%,-50%);
+    text-align: center;
 }
 
+p{
+    position: relative;
+    margin: 0 auto;
+    top: 5px;
+}
 
 .profileName {
     color: #F49D37;
