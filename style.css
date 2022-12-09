@@ -12,10 +12,6 @@
     transform:translate(-50%,-50%);
 }
 
-.rectangle:hover {
-    background: white;
-    text-align: center;
-}
 
 .profileName {
     color: #F49D37;
