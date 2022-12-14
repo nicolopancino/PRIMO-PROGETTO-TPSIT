@@ -1,38 +1,171 @@
-.img_profile {
-    text-align: center;
+.spazioSuperiore{
+    margin-top: 100px;
 }
 
-.rectangle {
-    height: 25px;
-    width: 125px;
-    background-color: #D72638;
-    border-radius: 50px;
-    position: absolute;
-    left: 50%;
-    transform:translate(-50%,-50%);
+.testoNome{
+    margin-top: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
     text-align: center;
+    color: var(--color-tertiary);
+    display: inline;
 }
 
-p{
+.icona{
+    display: inline;
+    width: 30px;
+    margin: auto;
     position: relative;
-    margin: 0 auto;
-    top: 5px;
+    bottom: 5px;
 }
 
-.profileName {
-    color: #F49D37;
-    text-align: center;
+@media (max-width: 356px) 
+{
+    .icona{
+        display: none;
+    }
 }
 
-.infoProdotto {
-    color: #F49D37;
-    text-align: center;
+.pulsante{
+    background: var(--color-quinquary);
+    box-shadow: 0px 2px 4px var(--color-black);
+    border-radius: 10px;
+    padding: 20px 100px;
+    border: none;
 }
 
-.descProdotto {
-    text-align: center;
+.pulsante:hover{
+    background-color: var(--color-primary);
 }
 
-.immagineProdotto {
-    text-align: center;
+.spazioBottone{
+    margin-top: 100px;
+}
+
+.fontBottone{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    color: var(--color-white);
+}
+
+.spazioSuperiore2{
+    margin-top: 50px;
+}
+
+.testoPosizione{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 100%;
+    position: relative;
+    color: var(--color-black);
+    display: inline;
+    top: 10px;
+}
+
+.IconaPosizione{
+    width: 30px;
+}
+
+.spazioFotoH1{
+    margin-bottom: 50px;
+}
+
+h1{
+    margin-top: 40px !important;
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    text-align: center !important;
+    display: inline !important;
+}
+
+.testo{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--color-black);
+    display: inline;
+}
+
+.prezzo{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 14px;
+    color: var(--color-black);
+}
+
+.testoCaratteristiche{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    color: var(--color-quinquary);
+}
+
+.contenutoCaratteristiche{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+}
+
+@media (max-width: 466px) 
+{
+    .contenutoCaratteristicheMail{
+        font-size: 14px;
+    }
+}
+
+.form-select{
+    display: inline !important;
+}
+
+.selettoreTaglia{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    color: var(--color-black);
+    margin-left: 10px;
+}
+
+.testoValutazione{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.spazioSuperiore3{
+    margin-top: 25px;
+}
+
+.center{
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+
+.titoloRecensione{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--color-secondary);
 }
