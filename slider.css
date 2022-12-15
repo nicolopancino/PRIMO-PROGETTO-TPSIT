@@ -6,7 +6,7 @@
 .slider {
     border: 2px solid black;
     width: 300px;
-    height: 500px;
+    height: 400px;
     background-color: #140f2d;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@
 .image-container {
     width: 2500px;
     background-color: #140f2d;
-    height: 500px;
+    height: 400px;
     clear: both;
     position: relative;
     -webkit-transition: left 2s;
